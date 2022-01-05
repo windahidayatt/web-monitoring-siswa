@@ -1,0 +1,40 @@
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+    color: #294227 !important;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.embed_container {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed_container embed {
+    width: 50%;
+    height: 50%;
+}
+
+.modal-body > .img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+.autocomplete-items {
+    position: absolute;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
